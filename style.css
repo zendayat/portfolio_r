@@ -92,12 +92,3 @@ swiper-container {
     opacity: 1;
     margin-right: 0;
   }
-  .top_l{
-    opacity: 0;
-    margin-left: 0;
-    transition: all 1s;
-  }
-  .stop{
-    opacity:  1;
-    margin-left: 1.75rem;
-  }
