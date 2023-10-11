@@ -14,20 +14,20 @@
     <section class="landing__page h-screen">
         <div class="nav flex flex-row justify-between mx-auto w-[95vw] align-middle text-center justify-center">
             <div class="logo h-44 w-fit -mt-14 object-cover -ml-10">
-                <img src="images/logos/logo1.png" alt="" class=" h-48" />
+                <a href="#"><img src="images/logos/logo1.png" alt="" class=" h-48" /></a>
             </div>
             <nav class=" w-[20vw] h-fit mt-6">
                 <ul class=" flex flex-row justify-between align-middle text-center justify-center">
-                    <li><a href="#" class=" text-gray-300">PROJECTS</a></li>
-                    <li><a href="#" class=" text-gray-300">CONTACT</a></li>
-                    <li class="hidden fixed"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300 border-2 border-gray-400 rounded-full"></i></button></li>
+                    <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
+                    <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
+                    <li class="block md:hidden absolute right-5"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
                 </ul>
             </nav>
         </div>
         <div class="body w-[85vw] h-[81vh] mx-auto flex align-middle justify-center text-center">
             <div class="my-auto flex flex-col">
-                <span class=" text-gray-300/20 absolute ml-7">I AM</span>
-                <span class="name text-[80px] tracking-widest text-gray-300/50"><a href="#about">RAHMA</a></span>
+                <span class=" text-gray-300/50 md:text-gray-300/20 absolute ml-7">I AM</span>
+                <span class="name text-[70px] md:text-[80px] tracking-wide md:tracking-widest text-gray-300/50"><a href="#about">RAHMA</a></span>
                 <div class=" flex flex-col text-left  ml-auto">
                     <span class=" text-gray-300/30">A JUNIOR</span>
                     <span class=" text-gray-300/30">WEB DEVELOPER</span>
@@ -36,10 +36,10 @@
         </div>
         <div class="socials absolute bottom-1 left-[6vw]">
             <ul class=" flex flex-col h-[15vh] justify-between w-7">
-                <li><a href="#"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-facebook hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="https://www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.facebook.com"><i class="uil uil-facebook hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
             </ul>
         </div>
         <div class="about_link absolute bottom-1 right-[6vw] h-[15vh] w-fit rotate-90">
@@ -52,67 +52,65 @@
        <section class="about__page h-[100vh] relative" id="about">
         <div class="nav flex flex-row justify-between mx-auto w-[95vw] align-middle text-center justify-center">
             <div class="logo h-44 w-fit -mt-14 object-cover -ml-10">
-                <img src="images/logos/logo1.png" alt="" class=" h-48" />
+                <a href="#"><img src="images/logos/logo1.png" alt="" class=" h-48" /></a>
             </div>
             <nav class=" w-[20vw] h-fit mt-6">
                 <ul class=" flex flex-row justify-between align-middle text-center justify-center">
-                    <li><a href="#" class=" text-gray-300">PROJECTS</a></li>
-                    <li><a href="#" class=" text-gray-300">CONTACT</a></li>
-                    <li class="hidden fixed"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300 border-2 border-gray-400 rounded-full"></i></button></li>
+                    <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
+                    <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
+                    <li class="block md:hidden absolute right-5"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
                 </ul>
             </nav>
         </div>
-        <div class="about_body w-[85vw] h-fit mx-auto flex">
-            <div class="heading absolute mt-5">
-            </div>
-            <div class="me overflow-hidden flex flex-col -mt-5 w-[40vw]">
+        <div class="about_body w-[90vw] md:w-[85vw] h-fit mx-auto flex flex-col md:flex-row">
+            <div class="me overflow-hidden flex flex-col -mt-20 md:-mt-5 w-[90%] md:w-[40vw] mx-auto ">
                 <div class="about_avatar mx-auto ">
-                    <img src="images/pic2.png" class="object-cover h-[26rem]"/>
+                    <img src="images/pic2.png" class="object-cover h-[26rem] "/>
                 </div>
-                <div class="line -mt-7 bg-gradient-to-r from-gray-400 to-black/25 h-1 w-[70%] flex ml-auto mr-auto rounded-full"></div>
+                <div class="line -mt-20 md:-mt-7 bg-gradient-to-r from-gray-400 to-black/25 h-1 w-[70%] flex ml-auto mr-auto rounded-full"></div>
             </div>
-            <div class="me_info flex flex-col w-[40vw] h-fit my-auto">
-                <div class="info mx-auto w-[80%] inline-block text-gray-300/70">
+            <div class="me_info flex flex-col w-[90%] md:w-[40vw] h-fit my-auto mx-auto">
+                <div class="info mx-auto w-[130%] md:w-[80%] inline-block text-center text-gray-300/70">
                     ed ut perspiciatis unde omnis iste natus error sit volu accusantium doloremque lau, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
                 </div>
-                <div class="signature mx-auto mt-7">
-                    <span class="sign text-gray-200 text-3xl">RAHMA YUSUF</span>
+                <div class="signature mx-auto mt-4 md:mt-7">
+                    <span class="sign text-gray-200 text-base md:text-3xl">RAHMA YUSUF</span>
                 </div>
-                <div class="ctf flex gap-6 mx-auto mt-7">
+                <div class="ctf flex gap-2 md:gap-6 mx-auto mt-3 md:mt-7">
                     <a href="#">
-                        <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2">RESUME</div>
+                        <div class="button w-fit px-5 py-2 md:py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2">RESUME</div>
                     </a>
                     <a href="#">
-                        <div class="button_alt w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg bg-gray-300/75 font-semibold text-black border-2">HIRE ME</div>
+                        <div class="button_alt w-fit px-5 py-2 md:py-3 flex align-middle text-center justify-center rounded-lg bg-gray-300/75 font-semibold text-black border-2">HIRE ME</div>
                     </a>
                 </div>
             </div>
         </div>
-        <div class="socials absolute bottom-3 left-[6vw]">
+        <div class="socials absolute bottom-14 md:bottom-3 left-[6vw]">
             <ul class=" flex flex-col h-[15vh] justify-between w-7">
-                <li><a href="#"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-facebook hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.facebook.com"><i class="uil uil-facebook hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
             </ul>
         </div>
-        <div class="project_link absolute bottom-8 right-[6vw] rotate-90">
-            <a href="#about"><span class=" text-gray-300 mr-2 hover:text-black duration-300">SCROLL</span><i class="uil uil-arrow-right hover:text-black duration-300 text-gray-300 font-semibold text-lg"></i></a>
+        <div class="project_link absolute bottom-24 md:bottom-8 right-4  md:right-[5vw] rotate-90">
+            <a href="#project"><span class=" text-gray-300 mr-2 hover:text-black duration-300">SCROLL</span><i class="uil uil-arrow-right hover:text-black duration-300 text-gray-300 font-semibold text-lg"></i></a>
         </div>
     </section>
 
                         <!-- END OF ABOUT -->
                     
-       <section class="about__page h-[100vh] relative" id="about">
+       <section class="project__page h-[100vh] relative" id="project">
         <div class="nav flex flex-row justify-between mx-auto w-[95vw] align-middle text-center justify-center">
             <div class="logo h-44 w-fit -mt-14 object-cover -ml-10">
-                <img src="images/logos/logo1.png" alt="" class=" h-48" />
+                <a href="#"><img src="images/logos/logo1.png" alt="" class=" h-48" /></a>
             </div>
             <nav class=" w-[20vw] h-fit mt-6">
                 <ul class=" flex flex-row justify-between align-middle text-center justify-center">
-                    <li><a href="#" class=" text-gray-300">PROJECTS</a></li>
-                    <li><a href="#" class=" text-gray-300">CONTACT</a></li>
-                    <li class="hidden fixed"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300 border-2 border-gray-400 rounded-full"></i></button></li>
+                    <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
+                    <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
+                    <li class="block md:hidden absolute right-5"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
                 </ul>
             </nav>
         </div>
@@ -227,14 +225,79 @@
         </div>
         <div class="socials absolute bottom-3 left-[6vw]">
             <ul class=" flex flex-col h-[15vh] justify-between w-7">
-                <li><a href="#"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-facebook hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
-                <li><a href="#"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.facebook.com"><i class="uil uil-facebook hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
             </ul>
         </div>
-        <div class="project_link absolute bottom-8 right-[6vw] rotate-90">
-            <a href="#about"><span class=" text-gray-300 mr-2 hover:text-black duration-300">SCROLL</span><i class="uil uil-arrow-right hover:text-black duration-300 text-gray-300 font-semibold text-lg"></i></a>
+        <div class="project_link absolute bottom-8 right-[4vw] rotate-90">
+            <a href="#contact"><span class=" text-gray-300 mr-2 hover:text-black duration-300">SCROLL</span><i class="uil uil-arrow-right hover:text-black duration-300 text-gray-300 font-semibold text-lg"></i></a>
+        </div>
+    </section>
+
+                <!-- END OF PROJECTS -->
+
+<section class="contact__page h-[100vh] relative" id="contact">
+        <div class="nav flex flex-row justify-between mx-auto w-[95vw] align-middle text-center justify-center">
+            <div class="logo h-44 w-fit -mt-14 object-cover -ml-10">
+                <a href="#"><img src="images/logos/logo1.png" alt="" class=" h-48" /></a>
+            </div>
+            <nav class=" w-[20vw] h-fit mt-6">
+                <ul class=" flex flex-row justify-between align-middle text-center justify-center">
+                    <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
+                    <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
+                    <li class="block md:hidden absolute right-5"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contact_body w-[85vw] h-fit mx-auto flex flex-row">
+            <div class="info w-[50%] flex flex-col ">
+                <div class="heading text-center align-middle justify-center mt-3">
+                    <span class="contact_heading text-[35px] tracking-wide text-gray-300/75 -mt-10">CONTACT</span>
+                </div>
+                <div class="contact_description w-[70%] inline-block text-gray-300/50 mt-5 text-center mx-auto">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                </div>
+                <div class="address flex flex-col text-center justify-center align-middle mt-5">
+                    <h4 class="text-gray-300 text-lg font-semibold">Address</h4>
+                    <span class="text-gray-300/40 text-sm">Mombasa, Kenya</span>
+                </div>
+                <div class="phone flex flex-col text-center justify-center align-middle mt-5">
+                    <h4 class="text-gray-300 text-lg font-semibold">Phone Number</h4>
+                    <span class="text-gray-300/40 text-sm">+44 7883 33213</span>
+                    <div class="email flex flex-col text-center justify-center align-middle mt-5">
+                        <h4 class="text-gray-300 text-lg font-semibold">Email</h4>
+                        <span class="text-gray-300/40 text-sm">dummyforRahma@gmail.com</span>
+                    </div>
+                </div>    
+            </div>
+            <div class=" w-[45%] h-[500px]">
+                <form action="" class="form shadow-xl border-b-2 border-black/30 shadow-white/30 bg-slate-500/25 w-[90%] h-[100%]">
+                    <div class="heading text-center align-middle justify-center mt-3">
+                        <span class="contact_heading text-[35px] tracking-wide text-gray-300/75 -mt-10">CONTACT</span>
+                    </div>
+                    <div class="form_list">
+                        <div class="form_item text-center align-middle justify-center">
+                            <input type="text" name="name" id="name" placeholder="Enter your name" class="bg-transparent mx-auto w-[90%] h-[50px] border text-gray-300 border-t-0 border-r-0 border-l-0 border-b-1 border-white/30 px-3 py-2" required/>
+                            <input type="email" name="name" id="email" placeholder="Enter your Email" class="mt-4 bg-transparent mx-auto w-[90%] h-[50px] text-gray-300 border border-t-0 border-r-0 border-l-0 border-b-1 border-white/30 px-3 py-2" required/>
+                            <textarea name="message" id="message" placeholder="Talk to me" class=" mt-4 bg-transparent mx-auto resize-none w-[90%] h-[150px] text-gray-300 border border-t-0 border-r-0 border-l-0 border-b-1 border-white/30 px-3 py-2" required></textarea>
+                            <button type="submit" class="bg-transparent mx-auto w-[90%] h-[50px] text-gray-300 mt-8 border-2 border-white/30 px-3 py-2 font-semibold">SEND MESSAGE</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="socials absolute bottom-3 left-[6vw]">
+            <ul class=" flex flex-col h-[15vh] justify-between w-7">
+                <li><a href="www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.facebook.com"><i class="uil uil-facebook hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+                <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
+            </ul>
+        </div>
+        <div class="project_link absolute bottom-7 right-[5vw] rotate-90">
+            <a href="#"><span class=" text-gray-300 mr-2 hover:text-black duration-300"><i class="uil uil-arrow-left"></i>TO TOP</span></a>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
