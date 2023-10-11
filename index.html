@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="script.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
@@ -26,8 +27,8 @@
         </div>
         <div class="body w-[85vw] h-[81vh] mx-auto flex align-middle justify-center text-center">
             <div class="my-auto flex flex-col">
-                <span class=" text-gray-300/50 md:text-gray-300/20 absolute ml-7">I AM</span>
-                <span class="name text-[70px] md:text-[80px] tracking-wide md:tracking-widest text-gray-300/50"><a href="#about">RAHMA</a></span>
+                <span class="top_l text-gray-300/50 md:text-gray-300/20 absolute ml-7">I AM</span>
+                <span class="name name_hidden text-[70px] md:text-[80px] tracking-wide md:tracking-widest text-gray-300/50"><a href="#about">RAHMA</a></span>
                 <div class=" flex flex-col text-left  ml-auto">
                     <span class=" text-gray-300/30">A JUNIOR</span>
                     <span class=" text-gray-300/30">WEB DEVELOPER</span>
@@ -120,110 +121,110 @@
                 <swiper-slide>
                     <div class="project_container flex flex-col w-[70%] h-full">
                         <div class="project align-middle flex flex-col justify-center text-center">
-                            <img src="images/project1.jpeg" class=" object-cover h-[60vh] mx-auto"/>
-                            <span class="project_title text-[55px] tracking-wide text-gray-300/50 -mt-10">HEADPHONE WEBSITE</span>
+                            <img src="images/project1.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                            <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">HEADPHONE WEBSITE</span>
                         </div>
-                        <div class="button_box flex gap-3 align-middle text-center justify-center">
-                            <div class="description h-fit my-auto align-middle text-center justify-center">
+                        <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
+                            <div class="description h-fit my-auto align-middle text-center justify-center mt-4 md:mt-0">
                                 <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
                                 <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
                             </div>
                             <div class="buttons">
                                 <a href="#">
-                                    <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2">VIEW PROJECT</div>
+                                    <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2 mx-auto md:ml-auto">VIEW PROJECT</div>
                                 </a>
                             </div>
                         </div>
                     </div>
                 </swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
-                        <div class="project align-middle flex flex-col justify-center text-center">
-                            <img src="images/project2.jpeg" class=" object-cover h-[60vh] mx-auto"/>
-                            <span class="project_title text-[55px] tracking-wide text-gray-300/50 -mt-10">COFFEE WEBSITE</span>
+                    <div class="project align-middle flex flex-col justify-center text-center">
+                        <img src="images/project2.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">COFFEE WEBSITE</span>
+                    </div>
+                    <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
+                        <div class="description h-fit my-auto align-middle text-center justify-center mt-4 md:mt-0">
+                            <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
+                            <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
                         </div>
-                        <div class="button_box flex gap-3 align-middle text-center justify-center">
-                            <div class="description h-fit my-auto align-middle text-center justify-center">
-                                <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
-                                <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
-                            </div>
-                            <div class="buttons">
-                                <a href="#">
-                                    <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2">VIEW PROJECT</div>
-                                </a>
-                            </div>
+                        <div class="buttons">
+                            <a href="#">
+                                <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2 mx-auto md:ml-auto">VIEW PROJECT</div>
+                            </a>
                         </div>
-                    </div></swiper-slide>
+                    </div>
+                </div></swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
-                        <div class="project align-middle flex flex-col justify-center text-center">
-                            <img src="images/project3.jpeg" class=" object-cover h-[60vh] mx-auto"/>
-                            <span class="project_title text-[55px] tracking-wide text-gray-300/50 -mt-10">SHOE WEBSITE</span>
+                    <div class="project align-middle flex flex-col justify-center text-center">
+                        <img src="images/project3.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">SHOES WEBSITE</span>
+                    </div>
+                    <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
+                        <div class="description h-fit my-auto align-middle text-center justify-center mt-4 md:mt-0">
+                            <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
+                            <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
                         </div>
-                        <div class="button_box flex gap-3 align-middle text-center justify-center">
-                            <div class="description h-fit my-auto align-middle text-center justify-center">
-                                <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
-                                <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
-                            </div>
-                            <div class="buttons">
-                                <a href="#">
-                                    <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2">VIEW PROJECT</div>
-                                </a>
-                            </div>
+                        <div class="buttons">
+                            <a href="#">
+                                <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2 mx-auto md:ml-auto">VIEW PROJECT</div>
+                            </a>
                         </div>
-                    </div></swiper-slide>
+                    </div>
+                </div></swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
-                        <div class="project align-middle flex flex-col justify-center text-center">
-                            <img src="images/project4.jpeg" class=" object-cover h-[60vh] mx-auto"/>
-                            <span class="project_title text-[55px] tracking-wide text-gray-300/50 -mt-10">MCDONALD'S WEBSITE</span>
+                    <div class="project align-middle flex flex-col justify-center text-center">
+                        <img src="images/project4.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">MCDONALD'S WEBSITE</span>
+                    </div>
+                    <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
+                        <div class="description h-fit my-auto align-middle text-center justify-center mt-4 md:mt-0">
+                            <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
+                            <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
                         </div>
-                        <div class="button_box flex gap-3 align-middle text-center justify-center">
-                            <div class="description h-fit my-auto align-middle text-center justify-center">
-                                <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
-                                <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
-                            </div>
-                            <div class="buttons">
-                                <a href="#">
-                                    <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2">VIEW PROJECT</div>
-                                </a>
-                            </div>
+                        <div class="buttons">
+                            <a href="#">
+                                <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2 mx-auto md:ml-auto">VIEW PROJECT</div>
+                            </a>
                         </div>
-                    </div></swiper-slide>
+                    </div>
+                </div></swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
-                        <div class="project align-middle flex flex-col justify-center text-center">
-                            <img src="images/project1.jpeg" class=" object-cover h-[60vh] mx-auto"/>
-                            <span class="project_title text-[55px] tracking-wide text-gray-300/50 -mt-10">SHOE WEBSITE</span>
+                    <div class="project align-middle flex flex-col justify-center text-center">
+                        <img src="images/project1.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">HEADPHONE WEBSITE</span>
+                    </div>
+                    <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
+                        <div class="description h-fit my-auto align-middle text-center justify-center mt-4 md:mt-0">
+                            <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
+                            <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
                         </div>
-                        <div class="button_box flex gap-3 align-middle text-center justify-center">
-                            <div class="description h-fit my-auto align-middle text-center justify-center">
-                                <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
-                                <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
-                            </div>
-                            <div class="buttons">
-                                <a href="#">
-                                    <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2">VIEW PROJECT</div>
-                                </a>
-                            </div>
+                        <div class="buttons">
+                            <a href="#">
+                                <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2 mx-auto md:ml-auto">VIEW PROJECT</div>
+                            </a>
                         </div>
-                    </div></swiper-slide>
+                    </div>
+                </div></swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
-                        <div class="project align-middle flex flex-col justify-center text-center">
-                            <img src="images/project2.jpeg" class=" object-cover h-[55vh] mx-auto"/>
-                            <span class="project_title text-[55px] tracking-wide text-gray-300/50 -mt-10">SHOE WEBSITE</span>
+                    <div class="project align-middle flex flex-col justify-center text-center">
+                        <img src="images/project1.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">HEADPHONE WEBSITE</span>
+                    </div>
+                    <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
+                        <div class="description h-fit my-auto align-middle text-center justify-center mt-4 md:mt-0">
+                            <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
+                            <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
                         </div>
-                        <div class="button_box flex gap-3 align-middle text-center justify-center">
-                            <div class="description h-fit my-auto align-middle text-center justify-center">
-                                <span class=" text-gray-200 align-middle flex gap-3 justify-center text-center my-auto"><i class="uil uil-html5"></i>HTML, <i class="uil uil-css3-simple"></i>CSS, <i class="uil uil-java-script"></i>JS</span>
-                                <div class="line bg-gradient-to-r from-gray-400 to-blue-700/50 h-1 w-[80%] mt-3 flex ml-auto mr-auto rounded-full"></div>
-                            </div>
-                            <div class="buttons">
-                                <a href="#">
-                                    <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2">VIEW PROJECT</div>
-                                </a>
-                            </div>
+                        <div class="buttons">
+                            <a href="#">
+                                <div class="button w-fit px-5 py-3 flex align-middle text-center justify-center rounded-lg text-gray-300 font-semibold border-gray-400 border-2 mx-auto md:ml-auto">VIEW PROJECT</div>
+                            </a>
                         </div>
-                    </div></swiper-slide>
+                    </div>
+                </div></swiper-slide>
             </swiper-container>
         </div>
-        <div class="socials absolute bottom-3 left-[6vw]">
+        <div class="socials absolute bottom-14 md:bottom-3 left-[6vw]">
             <ul class=" flex flex-col h-[15vh] justify-between w-7">
                 <li><a href="www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
                 <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
@@ -231,7 +232,7 @@
                 <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
             </ul>
         </div>
-        <div class="project_link absolute bottom-8 right-[4vw] rotate-90">
+        <div class="project_link absolute bottom-24 md:bottom-8 -right-[2vw] z-20 md:right-[4vw] rotate-90">
             <a href="#contact"><span class=" text-gray-300 mr-2 hover:text-black duration-300">SCROLL</span><i class="uil uil-arrow-right hover:text-black duration-300 text-gray-300 font-semibold text-lg"></i></a>
         </div>
     </section>
@@ -251,8 +252,8 @@
                 </ul>
             </nav>
         </div>
-        <div class="contact_body w-[85vw] h-fit mx-auto flex flex-row">
-            <div class="info w-[50%] flex flex-col ">
+        <div class="contact_body w-[95vw] md:w-[85vw] h-fit mx-auto flex flex-col md:flex-row">
+            <div class="info hidden md:block w-[100%] md:w-[50%] flex flex-col ">
                 <div class="heading text-center align-middle justify-center mt-3">
                     <span class="contact_heading text-[35px] tracking-wide text-gray-300/75 -mt-10">CONTACT</span>
                 </div>
@@ -272,8 +273,8 @@
                     </div>
                 </div>    
             </div>
-            <div class=" w-[45%] h-[500px]">
-                <form action="" class="form shadow-xl border-b-2 border-black/30 shadow-white/30 bg-slate-500/25 w-[90%] h-[100%]">
+            <div class=" md:w-[45%] h-[500px]">
+                <form action="" class="form shadow-xl border-b-2 border-black/30 shadow-white/30 bg-slate-500/25 w-[90%] h-fit pb-5 md:pb-0 md:h-[100%] mx-auto">
                     <div class="heading text-center align-middle justify-center mt-3">
                         <span class="contact_heading text-[35px] tracking-wide text-gray-300/75 -mt-10">CONTACT</span>
                     </div>
@@ -281,14 +282,14 @@
                         <div class="form_item text-center align-middle justify-center">
                             <input type="text" name="name" id="name" placeholder="Enter your name" class="bg-transparent mx-auto w-[90%] h-[50px] border text-gray-300 border-t-0 border-r-0 border-l-0 border-b-1 border-white/30 px-3 py-2" required/>
                             <input type="email" name="name" id="email" placeholder="Enter your Email" class="mt-4 bg-transparent mx-auto w-[90%] h-[50px] text-gray-300 border border-t-0 border-r-0 border-l-0 border-b-1 border-white/30 px-3 py-2" required/>
-                            <textarea name="message" id="message" placeholder="Talk to me" class=" mt-4 bg-transparent mx-auto resize-none w-[90%] h-[150px] text-gray-300 border border-t-0 border-r-0 border-l-0 border-b-1 border-white/30 px-3 py-2" required></textarea>
-                            <button type="submit" class="bg-transparent mx-auto w-[90%] h-[50px] text-gray-300 mt-8 border-2 border-white/30 px-3 py-2 font-semibold">SEND MESSAGE</button>
+                            <textarea name="message" id="message" placeholder="Talk to me" class=" mt-4 bg-transparent mx-auto resize-none w-[90%] h-[100px] md:h-[150px] text-gray-300 border border-t-0 border-r-0 border-l-0 border-b-1 border-white/30 px-3 py-2" required></textarea>
+                            <button type="submit" class=" shadow-md shadow-black bg-transparent mx-auto w-[90%] h-[50px] text-gray-300 mt-8 border-2 border-white/30 px-3 py-2 font-semibold">SEND MESSAGE</button>
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="socials absolute bottom-3 left-[6vw]">
+        <div class="socials absolute bottom-14  md:bottom-3 left-[6vw]">
             <ul class=" flex flex-col h-[15vh] justify-between w-7">
                 <li><a href="www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
                 <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
@@ -296,10 +297,11 @@
                 <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
             </ul>
         </div>
-        <div class="project_link absolute bottom-7 right-[5vw] rotate-90">
+        <div class="project_link absolute  bottom-24 md:bottom-7 right-[5vw] rotate-90">
             <a href="#"><span class=" text-gray-300 mr-2 hover:text-black duration-300"><i class="uil uil-arrow-left"></i>TO TOP</span></a>
         </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script defer src="script.js"></script>
 </body>
 </html>
