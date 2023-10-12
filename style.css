@@ -99,7 +99,7 @@ swiper-container {
   .appear{
     opacity: 1;
   }
-.dropdown_menu{
+.dropdown_menu, .dropdown_menu1, .dropdown_menu2, .dropdown_menu3 {
   height: 0;
   transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   overflow: hidden;
@@ -107,7 +107,7 @@ swiper-container {
   z-index: 3;
 
 }
-.dropdown_menu.open{
+.dropdown_menu.open, .dropdown_menu1.open, .dropdown_menu2.open, .dropdown_menu3.open {
   height: 275px;
   display: block;
 }

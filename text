@@ -1,0 +1,21 @@
+
+<div class="nav flex flex-row justify-between mx-auto w-[95vw] align-middle text-center justify-center">
+            <div class="logo h-44 w-fit -mt-14 object-cover -ml-10">
+                <a href="#"><img src="images/logos/logo1.png" alt="" class=" h-48" /></a>
+            </div>
+            <nav class=" w-[20vw] h-fit mt-6">
+                <ul class=" flex flex-row justify-between align-middle text-center justify-center">
+                    <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
+                    <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
+                    <li class="block md:hidden absolute right-5"><button class=" toggle_btn"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="dropdown_menu w-[80vw] backdrop-blur-sm rounded-xl bg-gray-300/30 py-5 absolute right-2 top-[9vh] md:hidden align-middle text-center">
+            <ul>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#" class=" text-gray-300 font-semibold">HOME</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#about" class=" text-gray-300 font-semibold">ABOUT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#project" class=" text-gray-300 font-semibold">PROJECT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#contact" class=" text-gray-300 font-semibold">CONTACT</a></li>
+            </ul>
+        </div>

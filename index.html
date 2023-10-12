@@ -21,7 +21,7 @@
                 <ul class=" flex flex-row justify-between align-middle text-center justify-center">
                     <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
                     <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
-                    <li class="block md:hidden absolute right-5"><button class="toggle_menu"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
+                    <li class="block md:hidden absolute right-5"><button class=" toggle_btn"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
                 </ul>
             </nav>
         </div>
@@ -43,7 +43,7 @@
                 </div>
             </div>
         </div>
-        <div class="socials absolute bottom-1 left-[6vw]">
+        <div class="socials absolute bottom-1 left-[2vw] md:left-[6vw]">
             <ul class=" flex flex-col h-[15vh] justify-between w-7">
                 <li><a href="https://www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
                 <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
@@ -67,9 +67,17 @@
                 <ul class=" flex flex-row justify-between align-middle text-center justify-center">
                     <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
                     <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
-                    <li class="block md:hidden absolute right-5"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
+                    <li class="block md:hidden absolute right-5"><button class=" toggle_btn1"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
                 </ul>
             </nav>
+        </div>
+        <div class="dropdown_menu1 w-[80vw] backdrop-blur-sm rounded-xl bg-gray-300/30 py-5 absolute right-2 top-[9vh] md:hidden align-middle text-center">
+            <ul>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#" class=" text-gray-300 font-semibold">HOME</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#about" class=" text-gray-300 font-semibold">ABOUT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#project" class=" text-gray-300 font-semibold">PROJECT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#contact" class=" text-gray-300 font-semibold">CONTACT</a></li>
+            </ul>
         </div>
         <div class="about_body w-[90vw] md:w-[85vw] h-fit mx-auto flex flex-col md:flex-row">
             <div class="me overflow-hidden flex flex-col -mt-20 md:-mt-5 w-[90%] md:w-[40vw] mx-auto ">
@@ -95,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <div class="socials absolute bottom-14 md:bottom-3 left-[6vw]">
+        <div class="socials absolute bottom-14 md:bottom-3 left-[3.5vw] md:left-[6vw]">
             <ul class=" flex flex-col h-[15vh] justify-between w-7">
                 <li><a href="www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
                 <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
@@ -119,9 +127,17 @@
                 <ul class=" flex flex-row justify-between align-middle text-center justify-center">
                     <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
                     <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
-                    <li class="block md:hidden absolute right-5"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
+                    <li class="block md:hidden absolute right-5"><button class=" toggle_btn2"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
                 </ul>
             </nav>
+        </div>
+        <div class="dropdown_menu2 w-[80vw] backdrop-blur-sm rounded-xl bg-gray-300/30 py-5 absolute right-2 top-[9vh] md:hidden align-middle text-center">
+            <ul>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#" class=" text-gray-300 font-semibold">HOME</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#about" class=" text-gray-300 font-semibold">ABOUT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#project" class=" text-gray-300 font-semibold">PROJECT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#contact" class=" text-gray-300 font-semibold">CONTACT</a></li>
+            </ul>
         </div>
         <div class="project_body me_info w-[85vw] h-[81vh] mx-auto flex">
             <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
@@ -232,7 +248,7 @@
                 </div></swiper-slide>
             </swiper-container>
         </div>
-        <div class="socials absolute bottom-14 md:bottom-3 left-[6vw]">
+        <div class="socials absolute bottom-12 md:bottom-3 left-[6vw]">
             <ul class=" flex flex-col h-[15vh] justify-between w-7">
                 <li><a href="www.instagram.com"><i class="uil uil-instagram hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
                 <li><a href="www.whatsapp.com"><i class="uil uil-whatsapp hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
@@ -240,7 +256,7 @@
                 <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
             </ul>
         </div>
-        <div class="project_link absolute bottom-24 md:bottom-8 -right-[2vw] z-20 md:right-[4vw] rotate-90">
+        <div class="project_link absolute bottom-20 md:bottom-8 -right-[2vw] z-20 md:right-[4vw] rotate-90">
             <a href="#contact"><span class=" text-gray-300 mr-2 hover:text-black duration-300">SCROLL</span><i class="uil uil-arrow-right hover:text-black duration-300 text-gray-300 font-semibold text-lg"></i></a>
         </div>
     </section>
@@ -256,9 +272,17 @@
                 <ul class=" flex flex-row justify-between align-middle text-center justify-center">
                     <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
                     <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
-                    <li class="block md:hidden absolute right-5"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
+                    <li class="block md:hidden absolute right-5"><button class=" toggle_btn3"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
                 </ul>
             </nav>
+        </div>
+        <div class="dropdown_menu3 w-[80vw] backdrop-blur-sm rounded-xl bg-gray-300/30 py-5 absolute right-2 top-[9vh] md:hidden align-middle text-center">
+            <ul>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#" class=" text-gray-300 font-semibold">HOME</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#about" class=" text-gray-300 font-semibold">ABOUT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#project" class=" text-gray-300 font-semibold">PROJECT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#contact" class=" text-gray-300 font-semibold">CONTACT</a></li>
+            </ul>
         </div>
         <div class="contact_body me_info w-[95vw] md:w-[85vw] h-fit mx-auto flex flex-col md:flex-row">
             <div class="info hidden md:block w-[100%] md:w-[50%] flex flex-col ">
@@ -305,7 +329,7 @@
                 <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
             </ul>
         </div>
-        <div class="project_link absolute  bottom-24 md:bottom-7 right-[5vw] rotate-90">
+        <div class="project_link absolute  bottom-24 md:bottom-7 right-[1vw] md:right-[5vw] rotate-90">
             <a href="#"><span class=" text-gray-300 mr-2 hover:text-black duration-300"><i class="uil uil-arrow-left"></i>TO TOP</span></a>
         </div>
     </section>

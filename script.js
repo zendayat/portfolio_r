@@ -30,5 +30,29 @@ const toggleBtnIcon = document.querySelector('.toggle_btn i');
 const dropDownMenu = document.querySelector('.dropdown_menu');
 
 toggleBtn.onclick = function() {
-    dropDownMenu.classList.toggle('open')
+    dropDownMenu.classList.toggle('open');
+}
+
+const toggleBtn1 = document.querySelector('.toggle_btn1');
+const toggleBtnIcon1 = document.querySelector('.toggle_btn i1');
+const dropDownMenu1 = document.querySelector('.dropdown_menu1');
+
+toggleBtn1.onclick = function() {
+    dropDownMenu1.classList.toggle('open');
+}
+
+const toggleBtn2 = document.querySelector('.toggle_btn2');
+const toggleBtnIcon2 = document.querySelector('.toggle_btn i2');
+const dropDownMenu2 = document.querySelector('.dropdown_menu2');
+
+toggleBtn2.onclick = function() {
+    dropDownMenu2.classList.toggle('open');
+}
+
+const toggleBtn3 = document.querySelector('.toggle_btn3');
+const toggleBtnIcon3 = document.querySelector('.toggle_btn i3');
+const dropDownMenu3 = document.querySelector('.dropdown_menu3');
+
+toggleBtn3.onclick = function() {
+    dropDownMenu3.classList.toggle('open');
 }
