@@ -92,3 +92,22 @@ swiper-container {
     opacity: 1;
     margin-right: 0;
   }
+  .me_info{
+    opacity: 0;
+    transition: all 2s;
+  }
+  .appear{
+    opacity: 1;
+  }
+.dropdown_menu{
+  height: 0;
+  transition: height 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  overflow: hidden;
+  display: none;
+  z-index: 3;
+
+}
+.dropdown_menu.open{
+  height: 275px;
+  display: block;
+}

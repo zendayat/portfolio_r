@@ -21,9 +21,17 @@
                 <ul class=" flex flex-row justify-between align-middle text-center justify-center">
                     <li><a href="#project" class=" hidden md:block text-gray-300">PROJECTS</a></li>
                     <li><a href="#contact" class=" hidden md:block text-gray-300">CONTACT</a></li>
-                    <li class="block md:hidden absolute right-5"><button onclick="ToggleMenu()"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
+                    <li class="block md:hidden absolute right-5"><button class="toggle_menu"><i class="uil uil-list-ul text-gray-300 font-semibold text-2xl hover:border-black duration-300 "></i></button></li>
                 </ul>
             </nav>
+        </div>
+        <div class="dropdown_menu w-[80vw] backdrop-blur-sm rounded-xl bg-gray-300/30 py-5 absolute right-2 top-[9vh] md:hidden align-middle text-center">
+            <ul>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#" class=" text-gray-300 font-semibold">HOME</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#about" class=" text-gray-300 font-semibold">ABOUT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#project" class=" text-gray-300 font-semibold">PROJECT</a></li>
+                <li class=" w-[90%] py-2 px-3 border-2  border-black rounded-full mx-auto my-3"><a href="#contact" class=" text-gray-300 font-semibold">CONTACT</a></li>
+            </ul>
         </div>
         <div class="body w-[85vw] h-[81vh] mx-auto flex align-middle justify-center text-center">
             <div class="my-auto flex flex-col">
@@ -95,7 +103,7 @@
                 <li><a href="www.github.com"><i class="uil uil-github hover:text-black duration-300 text-gray-300 font-semibold text-lg px-2 hover:border-black duration-300"></i></a></li>
             </ul>
         </div>
-        <div class="project_link absolute bottom-24 md:bottom-8 right-4  md:right-[5vw] rotate-90">
+        <div class="project_link absolute bottom-24 md:bottom-8 -right-2  md:right-[5vw] rotate-90">
             <a href="#project"><span class=" text-gray-300 mr-2 hover:text-black duration-300">SCROLL</span><i class="uil uil-arrow-right hover:text-black duration-300 text-gray-300 font-semibold text-lg"></i></a>
         </div>
     </section>
@@ -115,13 +123,13 @@
                 </ul>
             </nav>
         </div>
-        <div class="project_body w-[85vw] h-[81vh] mx-auto flex">
+        <div class="project_body me_info w-[85vw] h-[81vh] mx-auto flex">
             <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
             loop="true">
                 <swiper-slide>
                     <div class="project_container flex flex-col w-[70%] h-full">
                         <div class="project align-middle flex flex-col justify-center text-center">
-                            <img src="images/project1.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                            <img src="images/project1.jpeg" class=" object-cover h-[40vh]  mx-auto"/>
                             <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">HEADPHONE WEBSITE</span>
                         </div>
                         <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
@@ -139,7 +147,7 @@
                 </swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
                     <div class="project align-middle flex flex-col justify-center text-center">
-                        <img src="images/project2.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <img src="images/project2.jpeg" class=" object-cover h-[40vh]  mx-auto"/>
                         <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">COFFEE WEBSITE</span>
                     </div>
                     <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
@@ -156,7 +164,7 @@
                 </div></swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
                     <div class="project align-middle flex flex-col justify-center text-center">
-                        <img src="images/project3.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <img src="images/project3.jpeg" class=" object-cover h-[40vh]  mx-auto"/>
                         <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">SHOES WEBSITE</span>
                     </div>
                     <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
@@ -173,7 +181,7 @@
                 </div></swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
                     <div class="project align-middle flex flex-col justify-center text-center">
-                        <img src="images/project4.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <img src="images/project4.jpeg" class=" object-cover h-[40vh]  mx-auto"/>
                         <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">MCDONALD'S WEBSITE</span>
                     </div>
                     <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
@@ -190,7 +198,7 @@
                 </div></swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
                     <div class="project align-middle flex flex-col justify-center text-center">
-                        <img src="images/project1.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <img src="images/project1.jpeg" class=" object-cover h-[40vh]  mx-auto"/>
                         <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">HEADPHONE WEBSITE</span>
                     </div>
                     <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
@@ -207,7 +215,7 @@
                 </div></swiper-slide>
                 <swiper-slide><div class="project_container flex flex-col w-[70%] h-full">
                     <div class="project align-middle flex flex-col justify-center text-center">
-                        <img src="images/project1.jpeg" class=" object-cover h-[40vh] md:h-[60vh] mx-auto"/>
+                        <img src="images/project1.jpeg" class=" object-cover h-[40vh]  mx-auto"/>
                         <span class="project_title text-[25px] md:text-[55px] tracking-wide text-gray-300/50 -mt-5 md:-mt-10">HEADPHONE WEBSITE</span>
                     </div>
                     <div class="button_box flex flex-col md:flex-row gap-3 align-middle text-center justify-center">
@@ -252,7 +260,7 @@
                 </ul>
             </nav>
         </div>
-        <div class="contact_body w-[95vw] md:w-[85vw] h-fit mx-auto flex flex-col md:flex-row">
+        <div class="contact_body me_info w-[95vw] md:w-[85vw] h-fit mx-auto flex flex-col md:flex-row">
             <div class="info hidden md:block w-[100%] md:w-[50%] flex flex-col ">
                 <div class="heading text-center align-middle justify-center mt-3">
                     <span class="contact_heading text-[35px] tracking-wide text-gray-300/75 -mt-10">CONTACT</span>
